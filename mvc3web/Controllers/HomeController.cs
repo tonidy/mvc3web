@@ -10,7 +10,8 @@ namespace mvc3web.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC! dev version (0.1.1)";
+            //nambahin feature
+            ViewBag.Message = "Welcome to ASP.NET MVC! feature#1 version";
 
             return View();
         }
