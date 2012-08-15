@@ -10,7 +10,7 @@ namespace mvc3web.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC! rev2";
+            ViewBag.Message = "Welcome to ASP.NET MVC! dev version (0.1.*)";
 
             return View();
         }
